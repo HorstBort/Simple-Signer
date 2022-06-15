@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "simple-signer"
+version = "0.1.0"
+description = ""
+authors = ["Hauke Müntinga <hauke.muentinga@googlemail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cryptography = "^37.0.2"
+endesive = "^2.0.9"
+PyQt5 = "^5.15.6"
+PyMuPDF = "^1.19.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
